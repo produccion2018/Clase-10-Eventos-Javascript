@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 10-Eventos</title>
+    <title> Clase 11 Storage & JSON</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,7 +14,7 @@
     </header>
 
     <main id="miMain">
-        <h1 id="titulo">Clase 10-Eventos</h1>
+        <h1 id="titulo"> Clase 11  Storage & JSON</h1>
         <div class="botonera">
             <input class="button_grey" id="eventoUno" type="button" value="Evento 1">
             <input class="button_grey" id="eventoDos" type="button" value="Evento 2">
@@ -30,8 +30,8 @@
         <div>
             <!-- <img src="/img/logo.png" alt="Logo" id="coder"> -->
         </div>
-        <input type="text" name="" id="nombreProducto">
-        <input type="text" name="" id="nombrePersona">
+        <!-- <input type="text" name="" id="nombreProducto">
+        <input type="text" name="" id="nombrePersona"> -->
 
         <form id="formulario">
             <input type="text">
@@ -43,7 +43,19 @@
             <h4 id="nombre"></h4>
             <h4 id="edad"></h4>
             <h4 id="email"></h4>
+            <button id="borrarNombre">Nombre</button>
+            <button id="borrarEdad">edad</button>
+            <button id="borrarEmail">email</button>
         </div>
+
+
+        <div>
+            <h4 id="nombreProducto"></h4>
+            <h4 id="precio"></h4>
+            <h4 id="stock"></h4>
+             
+        </div>
+        <button class="button_grey"id="clearLS">Borrar Local Storage</button>
     </main>
 
     <footer>
@@ -51,6 +63,7 @@
     </footer>
     <!-- Acá van los Scripts -->
     <script src="js/index.js"></script>
+    <script src="./js/storange.js"></script>
     <script>
 
         function cambiarColorDeFondo() {
